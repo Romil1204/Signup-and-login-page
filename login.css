@@ -1,0 +1,44 @@
+form{
+	display:flex;
+	flex-direction:column;
+	justify-content: center;
+	width:30%;
+	
+}
+label{
+	font-size: 20px;
+	font-weight: bolder;
+	margin: 10px 0 10px 0;
+}
+.btn{
+	padding:2%;
+	margin:10px;
+	background-color: green;
+	color:#fff;
+	font-size: 22px;
+	border:none;
+}
+.btn:hover{
+	cursor:pointer;
+	opacity:0.8;
+}
+body{
+	display:flex;
+	flex-direction:row;
+	justify-content: center;
+	align-items:center;
+	font-family:sans-serif;
+}
+input{
+	padding:2%;
+}
+h1{
+	text-align:center;
+}
+h5{
+	color:blue;
+	margin:5px 0;
+}
+a{
+	text-decoration: none;
+}
